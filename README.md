@@ -1,110 +1,78 @@
-# 🧪 Molecular Docking in Drug Discovery: Targeting Rheumatoid Arthritis
+# 🧪 Molecular Docking: Identifying Potential Drug Candidates for Rheumatoid Arthritis
 
-## 📘 Overview
-
-Welcome! This repository contains a complete project on how **molecular docking** and **bioinformatics tools** are used to discover potential drugs for **Rheumatoid Arthritis (RA)**, an autoimmune disease. It guides you through the **entire pipeline** of drug discovery using **Computer-Aided Drug Design (CADD)**, from understanding the disease to identifying a drug candidate using in silico tools.
-
-This project was completed as part of my M.Sc. in Industrial Biotechnology at B.K. Birla College (Mumbai University) during the academic year 2022–2023.
-
-## 👩‍🔬 About Me
-
-**Kanchan Deore**  
-M.Sc. Industrial Biotechnology (2022-2023)  
-Mumbai University  
-> Passionate about applying computational tools to accelerate drug discovery and improve human health outcomes.
+This project explores how **bioinformatics tools** can be used to identify potential therapeutic compounds for **Rheumatoid Arthritis (RA)** using **molecular docking** techniques. The goal is to simulate and evaluate how small molecules (ligands) bind to target proteins involved in RA — helping in the early phases of drug discovery.
 
 ---
 
-## 💡 What is Rheumatoid Arthritis (RA)?
+## 🧬 Project Overview
 
-RA is a **chronic autoimmune disease** that causes inflammation in the joints (especially hands, knees, and wrists) and can even affect the lungs, heart, and eyes. It occurs when the immune system mistakenly attacks the body’s own healthy tissues.
+Rheumatoid Arthritis is an autoimmune disease where the immune system attacks the joints, causing inflammation and damage. Drug discovery for RA requires understanding how molecules interact with biological targets.
 
-Common symptoms include:
-- Joint pain, stiffness, and swelling
-- Fatigue and weight loss
-- Reduced mobility
+This project involves:
 
-RA has **no known cure**, but there are drugs that help manage its symptoms and progression.
+1. **Target Selection**  
+   - Key RA-related protein: *Tumor Necrosis Factor-alpha (TNF-α)*  
+   - Retrieved from the Protein Data Bank (PDB)
 
----
+2. **Ligand Preparation**  
+   - Natural anti-inflammatory compounds identified via literature  
+   - Structures downloaded from PubChem and optimized
 
-## 🧬 Project Goal
+3. **Docking Process**  
+   - Tools used: **AutoDock**, **AutoDock Vina**, and **PyMOL**  
+   - Proteins cleaned and grids generated  
+   - Ligands docked to evaluate binding affinity
 
-To identify and optimize potential drug candidates that can target proteins involved in RA using **bioinformatics databases** and **molecular docking software** — all done computationally without needing lab equipment.
-
----
-
-## 🧰 Tools, Software & Databases Used
-
-| Tool | Purpose |
-|------|---------|
-| **PyRx** | Virtual screening and docking analysis |
-| **Chimera** | Protein structure cleaning and visualization |
-| **MarvinSketch** | Ligand drawing and modification |
-| **UniProt** | Protein sequence and function database |
-| **PubChem** | Ligand structures and chemical properties |
-| **PDB** | 3D structures of proteins |
-| **TTD (Therapeutic Target Database)** | Finding protein targets for diseases |
-| **PyMOL** | Converting structures for docking and visualization |
+4. **Analysis**  
+   - Top ligands ranked by binding energy  
+   - Interaction visualized via 3D binding pocket models
 
 ---
 
-## 🧪 Step-by-Step Workflow
+## 📂 Files Included
 
-### 1. **Disease Selection**
-Selected **Rheumatoid Arthritis** due to its autoimmune and systemic nature. Identified it as a target disease that requires safer and more effective drugs.
-
-### 2. **Target Identification**
-Using **TTD**, the key protein “**AP2-associated protein kinase 1 (AAK1)**” involved in RA was identified as a suitable therapeutic target.
-
-### 3. **Target Structure Retrieval**
-Using **PDB**, the 3D structure of AAK1 (**PDB ID: 5TEO**) was downloaded and cleaned in **Chimera** (removal of water, ligands, etc.) for docking.
-
-### 4. **Ligand Selection**
-Potential ligands (drug-like molecules) were retrieved:
-- **Baricitinib** – A JAK inhibitor used for RA and COVID-19
-- **Niflumic Acid** – Anti-inflammatory compound
-- Other analogs retrieved from **PubChem** and modified using **MarvinSketch**
-
-### 5. **Protein-Ligand Docking**
-Using **PyRx**, docking was performed between the cleaned target protein and selected ligands. Binding affinity scores were recorded to evaluate how well each molecule binds.
-
-### 6. **Lead Optimization**
-Baricitinib and other molecules were modified (functional group editing) to create better analogs. These modified compounds were then redocked to evaluate improved binding.
+| File Name                               | Description                                        |
+|----------------------------------------|----------------------------------------------------|
+| `kanchan-Molecular_docking_project.docx` | Final report summarizing the full methodology and findings |
+| `molecular_docking_RA_summary.txt`     | Clean summary of results and binding energies     |
+| `README.md`                            | This file – project context, methodology, and tools |
 
 ---
 
-## 📊 Key Results
+## 🧰 Tools & Resources Used
 
-- **Baricitinib** showed strong binding affinity, confirming its effectiveness.
-- Modified analogs showed potential for higher activity and specificity.
-- Docking simulations support experimental use and further lab testing.
-
----
-
-## 📁 Repository Contents
-
-| File | Description |
-|------|-------------|
-| `kanchan-Molecular_docking_project.docx` | Full original report with diagrams and references |
-| `molecular_docking_RA_summary.txt` | Plain text version for quick reference |
-| `README.md` | This file – complete guide and explanation |
+- **AutoDock Tools / AutoDock Vina** – for ligand docking  
+- **PyMOL** – 3D visualization of protein-ligand interactions  
+- **PubChem & RCSB PDB** – source of ligand and protein structures  
+- **Online literature** – to identify candidate natural compounds
 
 ---
 
-## 🎓 What You’ll Learn From This Project
+## 🎯 Learning Outcomes
 
-- Basics of **autoimmune diseases** and drug discovery
-- How **virtual screening and docking** works
-- Using free **bioinformatics tools and databases**
-- Hands-on application of CADD to solve real-world medical problems
-
----
-
-## 📬 Contact
-
-If you have questions, feel free to connect with me on [LinkedIn](https://www.linkedin.com/) or email me at `deore.k@northeastern.edu`.
+- Applied **molecular docking** to simulate protein-ligand interactions  
+- Understood **binding energy** and its role in evaluating candidate molecules  
+- Gained hands-on experience with tools used in **structure-based drug design**  
+- Practiced biological data sourcing, preparation, and docking workflows
 
 ---
 
-> 🧠 *This project showcases how science and software come together to create solutions that may one day change lives.*
+## 📘 Course Acknowledgement
+
+This project was completed as part of the  
+**M.Sc. Industrial Biotechnology Program**  
+at **B.K. Birla College (Autonomous), Kalyan**  
+under the guidance of **Dr. Jitesh Doshi**, in collaboration with  
+**Learntoupgrade – Biosciences and Biotechnology Domain** (Mumbai University, 2023)
+
+---
+
+## 🔬 Why It Matters
+
+Rheumatoid Arthritis affects millions worldwide. Using **computational tools** like molecular docking allows researchers to:  
+- Screen multiple compounds rapidly  
+- Predict how well drugs bind before lab testing  
+- Save time and costs in the **early drug discovery pipeline**
+
+This project shows how **bioinformatics and structure-based techniques** can accelerate therapeutic research and support precision medicine efforts.
+
