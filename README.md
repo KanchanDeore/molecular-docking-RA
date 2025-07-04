@@ -59,11 +59,8 @@ This project involves:
 
 ## 📘 Course Acknowledgement
 
-This project was completed as part of the  
-**M.Sc. Industrial Biotechnology Program**  
-at **B.K. Birla College (Autonomous), Kalyan**  
-under the guidance of **Dr. Jitesh Doshi**, in collaboration with  
-**Learntoupgrade – Biosciences and Biotechnology Domain** (Mumbai University, 2023)
+This project was completed as part of the  **M.Sc. Industrial Biotechnology Program**  at **B.K. Birla College (Autonomous), Kalyan**  
+under the guidance of **Dr. Jitesh Doshi**, in collaboration with  **Learntoupgrade – Biosciences and Biotechnology Domain** (Mumbai University, 2023)
 
 ---
 
