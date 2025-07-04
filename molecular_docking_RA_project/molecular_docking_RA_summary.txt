@@ -1,0 +1,334 @@
+Bioinformatics in modern drug discovery principle and application
+Submitted to
+DEPARTMENT OF BIOTECHNOLOGY
+B. K. BIRLA COLLEGE OF ARTS, SCIENCE & COMMERCE (AUTONOMOUS),
+ KALYAN- 421304 
+2022-2023
+in partial fulfilment of the requirements for the award of the degree of M.Sc Industrial Biotechnology Program (BIOTECHNOLOGY)
+By
+Kanchan Deore
+under the guidance of Dr. Jitesh Doshi
+Learntoupgrade BIOSCIENCES AND BIOTECHNOLOGY
+DOMAIN
+Mumbai University 2023
+B.K BIRLA COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS), KALYAN-421304
+CERTIFICATE
+This is to certify that MISS KANCHAN SADASHIV DEORE, Exam seat no.43238074,
+Student of M.Sc (Industrial Biotechnology)-Semester-IV, at the Department of
+Biotechnology, B.K. Birla College Of Arts Science And Commerce(Autonomous),
+Kalyan has submitted the dissertation work titled " Bioinformatics in modern drug discovery principle and application"
+for the partitial fulfilment of Master's degree in Science in Biotechnology, during the
+academic year 2022-2023.
+No part of this review work has been reproduced elsewhere for any degree or diploma.
+Date:
+      Place: Mumbai
+Dr. Annika Durve Gupta,
+Co- ordinator,
+Dept. of Biotechnology,
+B.K. Birla College (Autonomous), Kalyan.
+Examiner’s signature
+DECLARATION
+I, Kanchan Deore. student of B.K. BIRLA COLLEGE OF ARTS, SCIENCE AND COMMERCE (AUTONOMOUS), KALYAN, M.Sc Biotechnology Program (BIOTECHNOLOGY) hereby declare that the project titled “Bioinformatics in modern drug discovery principle and application” which is submitted by me to Mumbai University and Biotechnology Domain, Mumbai University, in partial fulfillment of requirement for the award of the degree of M.Sc Industrial Biotechnology Program (BIOTECHNOLOGY), has not been previously formed the basis for the award of any degree, diploma or other similar title or recognition.
+Date:
+Name and Signature of Student
+Ms. Kanchan Deore.
+ACKNOWLEDGEMENT
+I have taken efforts in this Project. However, this would not have been possible without the help and kind support of many individuals, therefore I would like to extend my sincere thanks to all of them.
+I am highly indebted to my External guide Dr. Jiten Dosh for his guidance, support and constant supervision as well as providing necessary information regarding the project which helped me to complete the project without any difficulty. I express my deep regards to him. The help and guidance given by him time to time shall carry me a long way in the journey of life on which I am about to embark.
+I would like to express my special thanks of gratitude to my internal guide Dr.Gopinath for her guidance, support and constant supervision. She provided me with invaluable advise Her motivation and help contributed tremendously to the successful completion of the project.
+Finally, I would like to thank my parents, sister and friends for their constant support, love and co-operation. Their confidence helped me to complete this project successfully.
+Kanchan Deore.
+Abstract
+Since the Great Depression of the 1930s, COVID-19 has been responsible for the most severe economic, social, and societal disturbances since that time. More than 130 000 COVID-19- related research articles have been published in peer-reviewed journals or placed on preprint sites in response to this terrible epidemic, which has spawned a massive experimental and computational study effort. COVID-19 is the target of a lot of research work, and many of these efforts have been either entirely computational or computer-aided experimental investigations, which is a good thing. Computational approaches and their applications for identifying COVID- 19 small-molecule therapies have been described in the scientific literature. It seems that medicine repurposing has not yielded speedy and widespread answers after the first year of the COVID-19 epidemic. While several recognized medications have been utilized in the clinic to treat COVID-19 patients, other repurposed pharmaceuticals remain in clinical trials, as well as numerous new clinical prospects; We believe that truly impactful computational tools must deliver actionable, experimentally testable hypotheses that enable the discovery of novel drugs and drug combinations, and that open science and rapid sharing of research results are critical to accelerating the development of novel, much-needed therapeutics for COVID-19.
+Keyword: Structure-Based Drug Design, computer-aided drug design (CADD).
+TABLE OF CONTENTS
+ABSTRACT
+During this COVID pandemic, apart from the fact that it has taken the lives of many people, but has also augmented the gravity as well as the possibility of yielding to many diseases simultaneously. One of the diseases is autoimmune arthritis; Rheumatoid arthritis (RA). It can be better described as a persistent, progressive and debilitating autoimmune disease. Some of the known symptoms or one can say predominant features of this particular disease are inflammation, enlargement and pain in and around the joints and can influence other organs in the body. Although RA is a disease of the immune system, it is perhaps better described also asa systemic disease, which means that it can influence the whole body in its entirety. How this disease transpires in a persons’ body is when a person's immune system mistakes healthy body tissue for unknown invaders. In general, rheumatoid arthritis affects adults of all ages, although the vast majority are analyzed only between the ages of 40 and 60. It’s frequency of occurring in women is quite higher with respect to men. We will further augment our understanding of this debilitating disease which would help us understand the signs and symptoms of RA as well as its future treatment prospects. In the below mentioned article we will discuss the available drugs that are used for its treatment, as there is no suitable drug to cure this disease. Using computer aided drug design, we will design a new drug with properties akin to existing drugs of today.
+Keywords: Rheumatoid Arthritis, Computer aided drug design, COVID, Autoimmune disease, immune system
+INTRODUCTION
+The COVID-19 pandemic has somewhat have a direct and indirect relation with RA disease. There are cases of RA and this increased their risk during this COVID-19. So, RA have now been in limelight.
+WHAT IS RHEUMATOID ARTHRITIS?
+Rheumatoid arthritis (RA) can be better described as a rampant and calamitous autoimmune disease characterized by synovial/joint inflammation. It's what's referred to as an auto-resistant condition. This means that your body's natural self-defense system that is the “immune system” becomes confused and attempts to assault and destruct its own healthy body cells/tissues. In other words RA is also defined as -“an inflammatory and auto-immune disease in which your immune system inadvertently or one can say particularly targets healthy cells in your body, responsible for incessant irritation (painful swelling) in the affected areas”.
+The most pivotal or prime targets of RA are joints and it periodically affects the joints most rather than one joint at a time or infect or affect many joints or muscles simultaneously. The joints of hands, wrists, and knees are the most common areas that are affected by RA disease. The lining of the joint becomes inflamed in RA joints, causing “swelling” and joint tissue destruction. Long-term or persistent pain, instability (unbalance), and” distortion can all result from tissue damage (strain).This causes pain while movement in joints area to the patient”.
+RA can influence myriad organs or tissues throughout the body, making itself a prime causative agent for problems that may occur in organs such as the lungs, heart, and eyes.
+WHAT CAUSES “RA” DISEASE TO OCCUR?
+Rheumatoid Arthritis (RA) flourishes in any body only when your immune system's protective/defensive mechanisms target the “synovial” i.e. a thin layer made up of tissue that outlines your joints. The inflammation in your joints is usually the most severe, but it can spread to other organs and systems. RA produces chronic discomfort, weakness, and a variety of other problems.
+Despite the fact that further analysis of RA is unknown yet it is connected to a few hereditary and natural factors. This distinct illness condition is quite different from others due to the presence of a dysfunctional or irregular functioning of immune system that perceives self-antigens as alien invaders.
+The best description one can give about the preclinical stage is that the manufacturing of auto antibodies and the clinical stage is achieved when the body responds to these auto- antibodies prompting to inflammation.
+Cytokines, which are increased during infection, are the one responsible for the inflammatory state. The primary controllers of infection movement are the Th1 cells that transmit “IFN and Th17 cells” that produce “IL-17”. The arrival of granzyme and perforin by activation of the “CD8 + T –cells” demonstrates that they aggravate the illness to an extreme level.
+However, the exact cause of this has yet to be discovered.
+SIGNS & SYMPTOMS:
+Common occurring places one finds when one has RA are usually in the wrists, hands or feet and include:
+The time when symptoms worsen to such an extent that it becomes utterly unbearable are known as “flares”, and times when symptoms improve, known as “reMrions” in RA.
+a common feeling of being unwell
+low-grade fever
+appetite loss
+weight loss
+weakness
+joint deformity
+loss of the functionality and mobility
+unsteadiness while walking
+pain or achiness in many joints simultaneously
+stiffness and rigidness in many joints that lasts longer than 30 minutes
+swelling and redness in many joints
+symmetrical joint involvement
+Generally, individuals with RA are diagnosed in their 60s, in accordance with the “Centers for Disease Control and Prevention (CDC) Trusted Source”. Symptoms may appear gradually at first, but gradually deteriorate more over time passing.
+HOW DO WE DIAGNOSE RA?
+RA is diagnosed by inspecting symptoms by inspecting or directly a physical assessment, also doing X-rays and lab tests. Physical appearance assessment is the primary detection method through which we analyze and suspect that it can be RA disease. The first physical sign is the swelling of joints is the one.
+It’s best to analyze RA right on time within a half year of the beginning of symptoms so that people with the illness can start treatment to slow or stop infection progression.
+People with rheumatoid joint pain regularly have a raised erythrocyte sedimentation rate (ESR, otherwise called sed. rate) or C-receptive protein (CRP) level, which might show the presence of an inflammatory process in the body.
+Other common blood tests that utilized for analysis are for rheumatoid factor and anti- “cyclic citrullinated peptide (hostile to CCP) antibodies”. These tests are done to check what’s the justification for redness, firmness, swelling etc. of the joints.
+“Antinuclear antibody (ANA) testing” is one of the test done for diagnosing RA possibility. A negative ANA rejects SLE and other fundamental rheumatic diseases; the ANA might be positive in dependent upon 33% of patients with RA. In patients having or receiving a positive ANA test should also perform “anti-double stranded DNA and anti-
+Smith antibody testing”; these antibodies have high specificity for SLE
+“Complete Blood Count (CBC)” with differential and platelet count, trial of liver and kidney function, serum uric acid, and a urinalysis. The CBC is frequently unusual in RA, with anemia and thrombocytosis reliable with chronic aggravation.
+Also can diagnose through “Radiographs visualizing” through Ultrasound or X-rays of the full hands, wrists, and feet, we observe radiographs reports during the initial evaluation principally as a standard for observing disease progression. However, characteristic of joint erosions may be observed in the patients having symptoms of pain and swelling for the first time. Hence, this provides aid for the diagnosis process
+Reduced nutrient “vitamin D” adMrion has been connected to increased defenselessness to the advancement of rheumatoid Arthritis (RA) and vitamin D inadequacy has been viewed as related with disease activity in patients with RA
+TREATMENT AND DRUGS OF RA:
+There is no specific cure for rheumatoid arthritis. In clinical studies, it has been indicated that the reMrion of symptoms is more likely to be seen when the treatment begins early with medications or medicines known as the 'Disease-Modifying Anti-rheumatic Drugs’ (DMARDs).
+Drugs types: -
+NSAIDs: - “Non-steroidal Anti-inflammatory Drugs” Steroids: - Corticosteroid
+Biologic Agents
+By disrupting the immunological process that causes inflammation process, “DMARDs” can typically halt or stop the progression of RA disease. However, it could take up to six months or more for them to take full effect. These RA drugs are usually coupled with “NSAIDs or glucocorticoids”; nevertheless, with this type of treatment, you may not need any extra anti-inflammatory medicines or analgesics drugs with them.
+DMARDs have side effects also that it suppresses the immune responses and weakens the system. So many other disease pave way through our immune system and cause infections.
+Doctors have now started to realize that being pro-active is often more effective, as it results in fewer symptoms, increased function, less joint tissue loss, and reduced disability. If at all possible, the goal is to put the disease into “reMrion”.
+Biologic Agents or Biological Modifiers Drugs:
+These RA medications do not cure rheumatoid arthritis. If these drugs are stopped or halted, the symptoms may reoccur. Biologic response modifiers are like other DMARDs, which help to slow or stop the progression of the disease. You'll probably take “methotrexate” with one of these RA drugs if your doctor recommends it. The cost of biologic response modifiers is very high, and they are also administered through injection or IV.
+Example:-
+“Abatacept”- Brand name:- “Orencia”
+“Infliximab”-Brand name- “Remicade”
+NSAIDs
+In the past, doctors used a conservative, step-by-step strategy to treat rheumatoid arthritis. “Non-steroidal Anti-inflammatory medications” (NSAIDs), such as “ibuprofen”, were the ones that were first to be used. Patients who showed signs of joint injury were then switched to harsher RA medications.
+NSAIDs principle works on blocking the active site of an enzyme that causes inflammation or swelling. They are not able to lag or stop joint tissue deterioration. NSAIDs are not effective alone; they need to be combined with other RA medicines.
+EXAMPLE:-
+“Methotrexate”-Brand Name- “Rheumatrex”
+“Baricitinib”-Brand name-“Olumiant” and many more
+“Gluco-corticoids” are also available for RA treatments but they can be used or consumed for a short period of time that is less/short duration this is because they can cause severe gastrointestinal diseases or digestion problems
+These are the medication or drugs types used in RA but there is also therapy available for example; “Physiotherapy is used for the treatment of RA disease.
+Surgery is the final option after these if the case deteriorates. Replacement and many other joint surgeries are done.
+Steroids
+Corticoids are man-made steroids that have strong anti-inflammatory properties that block other types’ immune responses. They are used in form of pills or shots and they help to reduce joint tissue destruction along with relief in pain. These drugs are taken for a brief time of duration.
+EXAMPLE:-
+“Prednisone”-Brand Name- “Rayos”
+“Methylprednisone”-Brand Name-“Medrol” and many more WHAT IS COMPUTER AIDED DRUG DESIGNING?
+A drug is any chemical that induces a physiological alteration in the body when inhaled, injected, smoked, swallowed, absorbed through a skin patch, or dissolves under the tongue. A drug is a chemical compound with a recognized structure, other than a nutrient or an essential dietary item, that has a biological impact when supplied to a living creature. It’s used to treat, cure, prevent, or diagnose an
+illness, as well as to improve one’s overall health.
+Drug discovery is the process of identifying and partially validating a candidate molecule for use in the treatment of a specific ailment. It considers different aspects of the chemical nature, characteristics, and biological effect of the medicine. Design is a step in the discovery process that involves finding a new or
+modified molecule.
+CADD is a modern computational tool for identifying and developing a promising lead in the drug discovery process. Computational chemistry, molecular modelling, molecular design, and rational drug design are all examples of computer-aided drug design. CADD is being utilized to improve the quality of leads that have been identified. As far the academic circles and the pharmaceutical industry are concerned, CADD approaches are gaining favor and acceptance. The CADD method saves time, is quick, and is cost-effective.
+The CADD method saves time, is quick, and is cost-effective. The CADD approach has four phases:
+evaluate a small molecule library against a target using a virtual screening (VS) protocol to identify hits/leads.
+scrutinize the specificity of the selected hits from VS using molecular docking in the active site of other known targets.
+The Prediction of ADMET properties of the selected hit using in-silico techniques is to be done
+Should analyze which further aids to optimize the leads by designing better molecules for synthesis and testing.
+Using CADD, it is possible to design novel analogues of medicinal compounds that are currently authorized for the treatment of RA. Before designing medicinal compounds there are steps that is needed to be followed.
+STEPS INVOLVED IN COMPUTER AIDED DRUG DESIGN
+DISEASE SELECTION:
+RA is a disease of the immune system, it is perhaps better described also as a systemic disease, which means that it can influence the whole body in its entirety. It occurs when a people immune system mistakes the bodys healthy tissues for foreign invaders.
+TARGET IDENTIFICATION:
+Structure targeting determination
+Determination molecular structure of target using experimental or theoretical Which protein is involved? If receptors are to be blocked, what’s the subtype?
+The function of a potential therapeutic target (gene/protein) and its role in the disease are thefirst steps in target identification and characterization. Next is, the identification of thetarget, the molecular mechanisms addressed by the target are characterized.
+Properties of a promising drug target:
+1. The target has been proven to play a role in disease pathogenesis and/or is disease-modifying. 2.The target expression is not spread equally throughout the body.
+The 3D structure of the target can be used to determine druggability.
+Because the target is easily ‘assayable’ high-throughput screening is possible. 5.The target has a favourable toxicity profile, and phenotypic data can be used to forecastprobable side effects.
+Sources of targets: Experimentation, Literature, Domain knowledge, Databases
+TARGET VALIDATION
+Target Validation demonstrates that a molecular target is directly implicated in a disease process and that modulating the target is likely to be therapeutic. The use of a multi-validation strategy is the most significant criterion for target validation.
+TARGET STRUCTURE DETERMINATION
+It is very important to identify the chemical structure of the target to proceed. Structuredetermination is the process of using an acceptable approach to get the three- dimensionalpositional coordinates of a molecule or biomolecule.
+Database search
+Search public domain databases for known structures
+Experimental approach
+Perform X-ray crystallography or NMR experiment
+Computational structure determination
+Preform structure determination by theoretical methods such as Homology modelling, Threading, ab initio methods
+LIBRARY GENERATION
+Library generation can be through Natural sources, Databases, Combinatorial librarygeneration.
+Natural products: Plant metabolites, chemicals secreted by microorganisms, marineby-products, venoms and toxins etc.
+Medical folklore
+Synthetic banks
+Combinatorial synthesis
+LEAD DISCOVERY AND OPTIMIZATION
+After the subsequent steps involving the identification and validation of a therapeutic target, researcher concentrateson lead discovery, also known as lead identification and screening, which involves thedevelopment of many drug candidates. Leads must be demonstrated to reach and controlthe target’s activity in vivo while operating within acceptable safety margins.
+STRUCTURE BASED DRUG DESIGN
+C. MATERIALS AND METHODS
+SOFTWARES AND WEBSITES:
+TTD:
+TTD is a database that contains extensive details on the known and undiscovered
+Therapeutic treatmental proteins and nucleic acid targets, as well as information data on the targeted disease, pathway information, and medications that are directed at each of these targets.
+This database is constructed by Innovative Drug Research and Bioinformatics Group at Zhejiang University, China & the “Bioinformatics and Drug Design Group” at the National University of Singapore. Target name for the diseases can be identified in this database..
+Available link: 
+PDB:
+The Protein Data Bank (PDB) is a three-dimensional structural data collection for
+large biological entities including proteins and nucleic acids. The data, which is normally collected by X-ray crystallography, NMR spectroscopy, or, increasingly, cryo-electron microscopy, and provided by biologists and biochemists from all over the world, is publicly accessible on the Internet through the websites of its member organizations. The Worldwide Protein Data Bank, or wwPDB, is the institution in charge of the PDB. PDB file format are known as PDB FORMAT.
+Available link: 
+UniProt:
+UniProt is a publicly available database of protein sequence and function, with many entries acquired from genome sequencing efforts. It offers a wealth of information gleaned from the scientific literature about the biological function of proteins. Ligands can be selected from this database.
+Available link: 
+PubChem:
+PubChem is a database of chemical compounds and their biological test activities. PubChem is an important chemical information resource for scientists, students, and the general public, and it is managed by the National Center for Biotechnology Information, which is part of the National
+Library of Medicine. Several million users around the world receive data from the website and programmatic services each month. Larger molecules, such as nucleotides, carbohydrates, lipids, peptides, and chemically modified macromolecules, are also found in PubChem. Chemical structures, identities, chemical and physical properties, and biological activity can all be collected.
+Available link: 
+MarvinSketch:
+MarvinSketch has a lot of tools that make it easy to draw chemical
+compounds, processes, Markush structures, and query molecules quickly and accurately. MarvinSketch also includes built-in structural and valence checkers, as well as integrated property calculators for instant answers. MarvinSketch not only converts chemistry into a digital format, but it also supports the largest range of industry-accepted standard chemical file formats. They are used to make new molecules.
+This is a software that needs to be downloaded from the website.
+Available link to download the software: ’
+PyRx:
+PyRx is a Computational Therapeutic Discovery Virtual Screening software that can be used to screen libraries of compounds against prospective drug targets. PyRx allows Medicinal Chemists to execute Virtual Screening from any platform, and it guides users through every step of the process, from data preparation to job subMrion and analysis. This software is used for docking purposes and we can determine the binding affinity of molecules with protein.
+Available link to download the software: 
+PyMol:
+PyMOL, a cross-platform molecular graphics programme, is commonly used to visualise proteins, nucleic acids, tiny molecules, electron densities, surfaces, and
+trajectories in three dimensions (3D). It can also modify molecules, perform ray tracing, and create movies. PyMol is used to convert SDF format to PDB one.
+Available link to download the software: 
+Chimera 1.15:
+UCSF Chimera (or just Chimera) is a flexible tool for visualising and analysing molecular structures and data, such as density maps, supramolecular assemblies, sequence alignments, docking findings, trajectories, and conformational ensembles. It is possible to make high-quality photos and movies. Chimera comes with comprehensive documentation and is available for noncommercial use at no cost. Chimera was created by the University of California, San Francisco's Resource for Biocomputing, Visualization, and Informatics (RBVI). The National Institutes of Health contributes to development.
+Available link to download the software: 
+METHODOLOGY:-
+PROCEDURE:
+STEPS
+DISEASE SELECTION:
+RA is an autoimmune disease. It is also a non-specific treatment disease, which means it can affect the whole body. It occurs when a person’s immune system mistakes the body’s healthy tissues for foreign invaders.
+TARGET IDENTIFICATION Steps:
+First the Therapeutic Target Database website is opened.
+Next, the disease Rheumatoid Arthritis is searched in the search box.
+A new page appeared containing all the available target for the disease.
+HUMAN adaptor-associated kinase 1 was selected
+3) TARGET CHEMICAL STRUCTURE DETERMINATION Steps:
+At first, Protein Data Bank is opened.
+Then, the target is looked up in the search box
+Several proteins appeared out of which protein having source of organism as Homo Sapiens and the best resolution upto 2.5 Å is selected.
+- AP2-associated protein kinase 1(5TEO) was selected
+The protein is then downloaded n SDF format.
+LIBRARY GENERATION FROM DATABASES Steps:
+Firstly, drug molecules (ligands) are selected that can bind with the protein molecules from the UniProt website.
+Also searched from Therapeutic Target database and from their got the link to PubChem to the compound and also downloaded similar compound as the known drug
+Then, 3D structures of those ligands are downloaded from PubChem website.
+c. Ligands selected are:
+1).Niflumic Acid: -
+Niflumic acid is an analgesic and anti-inflammatory agent used in the treatment of rheumatoid arthritis.
+Niflumic acid is a cyclooxygenase-2 inhibitor used to alleviate inflammation, pain, and edema associated with acute and chronic inflammatory conditions, such as rheumatoid arthritis, osteoarthritis, post-operative inflammatory conditions, and physical trauma.
+2).2-[1-(1-propan-2-ylsulfonylpiperidin-4-yl)-3-[4-(7H-pyrrolo[2,3-d]pyrimidin-4- yl)pyrazol-1-yl]azetidin-3-yl]acetonitrile:-
+3).Baricitinib: -
+Baricitinib is an orally accessible small molecule Janus kinase inhibitor used to treat moderate to severe rheumatoid arthritis. It was licenced in late 2020 for COVID -19 severe emergency use in combination with remdesivir. During treatment, baricitinib is connected to temporary and usually minor rises in serum aminotransferase levels, but no clinically obvious acute liver damage has been found.
+Baricitinib is a Janus kinase 1 (JAK1) and 2 (JAK2) inhibitor that is both selective and reversible (JAK2). Janus kinases are tyrosine protein kinases that play a key part in the pro-inflammatory signalling pathway, which is typically overactive in autoimmune illnesses like rheumatoid arthritis.By blocking the actions of JAK1 / 2, baricitinib disrupts the activation of downstream signaling molecules and pro-inflammatory mediators. Rheumatoid arthritis is a progressive autoimmune disease commonly associated with discomfort, disability and joint damage. Although there are several disease-modifying anti-rheumatic drugs (DMARDs) available for treatment, patients often show inadequate therapeutic responses to these drugs.
+In animal models of inflammatory arthritis, baricitinib was shown to have significant anti- inflammatory effects, but also led to the preservation of cartilage and bone, without detectable suppression of humoral immunity or adverse hematologic effects. . In the EU, baricitinib was approved in February 2017 as a second-line oral therapy for moderate to severe active rheumatoid arthritis in adults, either as monotherapy or in combination with methotrexate. It is marketed under the trade name Olumiant. Baricitinibis used in amalgamation with [remdesivir] for the treatment ofCOVID-19 obtained emergency use clearance from the FDA on November 19, 2020.
+PROTEIN (TARGET-5te0) PREPARATION FOR DOCKING
+With the help of Chimera 1.15 prepared the protein that is the target
+Deleted all the residues and hydrogen and water molecules
+Saved the edited protein for further process
+PROTEIN- LIGAND DOCKING Steps:
+The modified protein molecule along with the ligands are loaded in the respective section in the PyRx software.
+The ligands are minimized and then both the modified molecule and the ligands are autodocked.
+RESULT
+SELECTION OF LIGANDS AND MOLECULE FOR DOCKING
+SELECTION OF PROTEIN MOLECULE
+PLACING THE MOLECULES INSIDE THE BOX
+DOCKING:-
+LEAD OPTIMIZATION
+The drug molecule is opened in Marvin sketch for the modification so that new groups can be added to the molecule.
+Taken the similar compound of the drug
+Taken the similar compound of the drug:-2-[1-(1-propan-2-ylsulfonylpiperidin-4-yl)-3- [4-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)pyrazol-1-yl]azetidin-3-yl]acetonitrile
+Deleted the -CH group from the ring below
+Bioactive Compounds downloaded from Molinspiration database.
+Conclusion
+Computer Aided Drug Designing is the process for virtual screening and getting drugs screenings and identify the best drug for particular disease. This save time and resources for doctors and scientist. We can develop many improved compounds and drugs for defeating diseases.
+Rheumatoid Arthritis, is an auto-immune disease that attacks its own cells or tissues in joints.There is no particular treatment for RA. There are different methods of treatment for suppressing its effect or pain but there is not permanent cure. As it is an autoimmune disease, there are many drugs that are used in form of immunosuppressants drugs used for its treatment.Also, recently it’s drugs are used to treat COVID-19 patients. Drugs like Baricitinib, Niflumic Acid,Hydroxychloroquine sulfateetc. Developing a new compound from given compounds or drug available by doing lead optimization; changing the functional group could give new better compound. Its very easy now for Pharmaceutical Industries to develope drugs.
+.
+REFERENCE:-
+Tripathy A, Swain N, Gupta B. The COVID-19 pandemic: an increased risk of rheumatoid arthritis. Future Virol.National Library of Medicine. 2021 Jun. doi: 10.2217/fvl- 2020-0393. Available From: https://pubmed.ncbi.nlm.nih.gov/34181704/
+Favalli EG, Ingegnoli F, De Lucia O, Cincinelli G, Cimaz R, Caporali R. COVID-19 infection and rheumatoid arthritis: Faraway, so close! Autoimmun Rev., National Library of Medicine 2020 May. doi: 10.1016/j.autrev.2020.102523. Available From: https://pubmed.ncbi.nlm.nih.gov/32205186/
+Angelini J, Talotta R, Roncato R, Fornasier G, Barbiero G, Dal Cin L, Brancati S, Scaglione F. JAK-Inhibitors for the Treatment of Rheumatoid Arthritis: A Focus on the Present and an Outlook on the Future. Biomolecules. 2020 Jul 5;10(7):1002. doi: 10.3390/biom10071002. PMID: 32635659; PMCID: PMC7408575.
+Kawalec P, Śladowska K, Malinowska-Lipień I, Brzostek T, Kózka M. New alternative in the treatment of rheumatoid arthritis: clinical utility of baricitinib. Ther Clin Risk Manag. 2019 Feb 13;15:275-284. doi: 10.2147/TCRM.S192440. PMID: 30858707; PMCID: PMC6385775.
+Hyrich, K.L., Machado, P.M. Rheumatic disease and COVID-19: epidemiology and outcomes. Nat Rev Rheumatol17, 71–72 (2021). https://doi.org/10.1038/s41584-020-00562-2
+WPRs
+WEEKLY PROGRESS REPORT:- MINOR PROJECT
+NAME:- Kanchan Deore.
+PROGRAM: -M.SC BIOTECHNOLOGY BATCH:- 2022-2023
+ENROLLMENT NO. :- 2018016401914557
+TOPIC:- Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools
+WPR-1
+Started training for Bioinformatics tools and software uses
+Then identify my topic
+Taken the topic “Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools”.
+Searched about Rheumatoid Arthritis and its drugs used for treatment.
+WEEKLY PROGRESS REPORT:- MINOR PROJECT
+NAME:- Kanchan Deore.
+PROGRAM: -M.SC BIOTECHNOLOGY BATCH:- 2022-2023
+ENROLLMENT NO. :- 2018016401914557
+TOPIC:- Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools
+WPR 2: -
+Rheumatoid arthritis, or RA, is an autoimmune and inflammatory disease, which means that your immune system attacks healthy cells in your body by mistake, causing inflammation (painful swelling) in the affected parts of the body. RA mainly attacks the joints, usually many joints at once.
+Searched about drug used for its treatment
+Learning about the tools of bioinformatics and its basics
+Learned about the different types of bioinformatics/biological databases
+WEEKLY PROGRESS REPORT:- MINOR PROJECT
+NAME:- Kanchan Deore.
+PROGRAM: -M.SCBIOTECHNOLOGY BATCH:- 2022-2023
+ENROLLMENT NO. :- 2018016401914557
+TOPIC:- Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools
+WPR 3: -
+Learned about the Molecular Structural Representation and their types
+What is drug discovery? Learned about its steps
+Databases used for Drug Discovery.
+WEEKLY PROGRESS REPORT:- MINOR PROJECT
+NAME:- Kanchan Deore.
+PROGRAM: -M.SC BIOTECHNOLOGY BATCH:- 2022- 2023
+ENROLLMENT NO. :- 2018016401914557
+TOPIC:- Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools
+WPR 4: -
+Learned about Compound Databases and Libraries
+Learned about PubChem- Compound Library
+Tutorials of necessary Bioinformatics Software needed to be download
+Basics of Libraries and Target Id and Prediction
+How to do or get Target Prediction & Structure
+WEEKLY PROGRESS REPORT:- MINOR PROJECT
+NAME:- Kanchan Deore.
+PROGRAM: -M.SC BIOTECHNOLOGY BATCH:- 2022 -2023
+ENROLLMENT NO. :- 2018016401914557
+TOPIC:- Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools
+WPR 5: -
+Learned about how many types of Libraries available
+Learned about Combinatorial Library and its principles
+Tools and software used for its process
+Started Searching Drugs and Target for Rheumatoid Arthritis
+Tried finding known similar compound as given drugs from Therapeutic Target Databases
+Searched the latest drugs properties that are used in RA, found also used in COVID-19 treatment.
+WEEKLY PROGRESS REPORT:- MINOR PROJECT
+NAME:- Kanchan Deore.
+PROGRAM: -M.SC BIOTECHNOLOGY BATCH:- 2021 -2023
+ENROLLMENT NO. :- 2018016401914557
+TOPIC:- Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools
+WPR 6: -
+Basics of Virtual Screening
+Software’s and tools used online for Virtual Screening
+Learned about ADME and its Tools
+Learned About Cheminformatics Tools and Databases
+Chimera Software uses and tutorials given
+Found the Target for RA from TTD and saved it from ‘UniProt’ for further process
+Also Saved the known drugs available for treatment from TTD and saved structure from PubChem
+WEEKLY PROGRESS REPORT:- MINOR PROJECT
+NAME:- Kanchan Deore.
+PROGRAM: -M.SC BIOTECHNOLOGY BATCH:- 2022-2023
+ENROLLMENT NO. :- 2018016401914557
+TOPIC:- Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools
+WPR 7: -
+Learned the Process and practical use of Virtual Screening Software’s
+Learned about PyRx, Discovery Studio. etc
+Also learn 2D/3D Structure Representation tool used that is Marvin Sketch
+Basics of Molecular Docking and Molecular Minimization.
+Structure of Ligands Prepared by removing residues from Marvin Sketch
+Also learned about Lead Optimization
+Did lead optimization of Ligand that is the known drug by changing functional group and saved the compounds formed.
+WEEKLY PROGRESS REPORT:- MINOR PROJECT
+NAME:- Kanchan Deore.
+PROGRAM: -M.Sc BIOTECHNOLOGY BATCH:- 2022-2023
+TOPIC:- Analysis of Target Molecule for Rheumatoid Arthritis: autoimmune disease & identifying drug candidate by using in silico tools
+WPR 8: -
+Learned Analysis of Ligand-Protein Docking
+Detailed review over the Types of Docking
+Learned how to use PyRx and AutoDock
+Did Docking of the ligands saved
+Baricitinib, also known as ‘Olumiant’, is used to treat rheumatoid arthritis. It's a type of drug known as a Janus kinase JAK inhibitor. It works by blocking the action of Janus kinase enzymes, which are involved in the inflammation that causes the symptoms of rheumatoid arthritis.
+Analysis the results and concluded
